@@ -1,0 +1,37 @@
+.footer-tab-container {
+  border-top: 1px solid #ccc;
+  background-color: #f8f8f8;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.footer-tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-tab {
+  flex: 1;
+  padding: 6px 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.footer-tab:hover {
+  background-color: #e0e0e0;
+}
+
+.footer-tab.active {
+  background-color: #d1d1d1;
+  font-weight: bold;
+}
+
+.footer-content {
+  padding: 8px 16px;
+  flex: 1;
+  overflow-y: auto;
+}
